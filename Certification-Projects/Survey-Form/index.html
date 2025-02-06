@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointless Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Pointless Survey</h1>
+    <p id="description">Welcome to my pointless survey!</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name:
+                <input id="name" name="name" type="text" placeholder="Enter your name" required>
+            </label>
+            <label id="email-label" for="email">Email:
+                <input id="email" name="email" type="email" placeholder="Enter your Email" required>
+            </label>
+            <label id="number-label" for="number">Age:
+                <input id="number" name="age" type="number" min="18" max="120" placeholder="(optional)">
+            </label>
+            <label id="dropdown-1-label" for="dropdown-1">With which option would you describe yourself?
+                <select id="dropdown-1" name="stage-of-life">
+                    <option value="teen">Teen</option>
+                    <option value="young-adult">Young Adult</option>
+                    <option value="adult">Adult</option>
+                    <option value="elder">Elder</option>
+                    <option value="vampire">"Vampire"</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you happy with your current life?</legend>
+            <label>
+                <input id="yes-life" name="life-question" type="radio" value="yes" checked> Yes
+            </label>
+            <label>
+                <input id="no-life" name="life-question" type="radio" value="no"> No
+            </label>
+            <label>
+                <input id="other-life" name="life-question" type="radio" value="other"> "This is such a stup..."
+            </label>
+            <label id="dropdown-2-label" for="dropdown-2">What do you love the most about your life?
+                <select id="dropdown-2" name="love-about-life">
+                    <option value="people">People</option>
+                    <option value="pets">Pets</option>
+                    <option value="music">Music</option>
+                    <option value="nature">Idk, nature?</option>
+                    <option value="other">Other</option>
+                    <option value="video-games">VIDEO GAMES YAY</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Check any amount of boxes</legend>
+            <label for="checkbox-1">
+                <input id="checkbox-1" type="checkbox" value="1"> Option 1
+            </label>
+            <label for="checkbox-2">
+                <input id="checkbox-2" type="checkbox" value="2"> Option 2
+            </label>
+            <label for="checkbox-3">
+                <input id="checkbox-3" type="checkbox" value="3"> Option 3
+            </label>
+            <label for="checkbox-4">
+                <input id="checkbox-4"  type="checkbox" value="4"> Option 4
+            </label>
+            <label for="checkbox-5">
+                <input id="checkbox-5"  type="checkbox" value="5"> Option 5
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>How fun was the survey?</legend>
+            <label for="experience">
+                <textarea id="experience" rows="4" cols="50" placeholder="Write your experience..."></textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
