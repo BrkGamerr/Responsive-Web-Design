@@ -40,26 +40,26 @@ h1 .flex span:last-of-type {
 /* -------------- Table Section -------------- */
 
 table {
-    border-collapse: collapse;
     border: 0;
-    width: 100%;
-    position: relative;
+    border-collapse: collapse;
     margin-top: 3rem;
+    position: relative;
+    width: 100%;
 }
 
 table caption {
     color: #356eaf;
     font-size: 1.3em;
     font-weight: normal;
+    left: 0.5rem;
     position: absolute;
     top: -2.25rem;
-    left: 0.5rem;
 }
 
 tbody td {
-    width: 100vw;
-    min-width: 4rem;
     max-width: 4rem;
+    min-width: 4rem;
+    width: 100vw;
 }
 
 tbody th {
@@ -72,8 +72,8 @@ tr.data {
 
 tr.data td {
     padding: 0.3rem 0.25rem 0;
-    vertical-align: top;
     text-align: right;
+    vertical-align: top;
 }
 
 tr.data td:last-of-type {
@@ -81,17 +81,17 @@ tr.data td:last-of-type {
 }
 
 tr.data th {
-    text-align: left;
-    padding-top: 0.3rem;
     padding-left: 0.5rem;
+    padding-top: 0.3rem;
+    text-align: left;
 }
 
 tr.data th .description {
     display: block;
     font-style: italic;
     font-weight: normal;
-    padding: 1rem 0 0.75rem;
     margin-right: -13.5rem;
+    padding: 1rem 0 0.75rem;
 }
 
 tr[class="total"] {
@@ -100,8 +100,8 @@ tr[class="total"] {
 }
 
 tr[class="total"] th {
-    text-align: left;
     padding: 0.5rem 0 0.25rem 0.5rem;
+    text-align: left;
 }
 
 tr.total:hover {
@@ -109,8 +109,8 @@ tr.total:hover {
 }
 
 tr.total td {
-    text-align: right;
     padding: 0 0.25rem;
+    text-align: right;
 }
 
 tr.total td:nth-of-type(3) {
@@ -137,8 +137,8 @@ td.current {
 
 #years span[class] {
     font-weight: bold;
-    width: 4.5rem;
     text-align: right;
+    width: 4.5rem;
 }
 
 /* -------------- Classes Section -------------- */
